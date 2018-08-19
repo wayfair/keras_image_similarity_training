@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Pickle
+*.pkl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MacOS X
+.DS_Store
+._*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Tensorflow Serving models
+savedmodels/
+
+# Keras Models
+*.h5
+*.hdf5

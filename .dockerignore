@@ -1,0 +1,4 @@
+# Do not copy over data files
+savedmodels/
+checkpoints/
+*.pkl
