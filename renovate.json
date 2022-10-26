@@ -11,8 +11,8 @@
   ],
   "enabledManagers": [
     "github-actions",
-    "python",
-    "tensorflow"
+    "pip_requirements",
+    "dockerfile"
   ],
   "packageRules": [
     {
@@ -22,6 +22,15 @@
     {
       "matchManagers": ["github-actions"],
       "groupName": "GitHub Actions"
+    },
+    {
+      "matchPackageNames": ["tensorflow"],
+      "groupName": "Tensorflow"
+    },
+    {
+      "matchFiles":["training_siamese_network.ipynb"],
+      "matchManagers": ["pip-requirements"],
+      "groupName": "Python for Jupyter Notebook"
     }
   ]
 }
